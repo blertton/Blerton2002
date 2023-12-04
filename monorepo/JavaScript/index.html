@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>Checkboxes :</h1>
+
+    <form style="display: flex">
+        <input type="checkbox" value="Internship" style="margin-right: 60px"/>
+        <input type="checkbox" value="Pabau" style="margin-right: 60px"/>
+        <input type="checkbox" value="Employment" style="margin-right: 60px"/>
+        <input type="checkbox" value="Career" style="margin-right: 60px"/>
+      </form>
+    </form>
+
+    <br /><br />
+
+    <button onclick="showSelectedValues()">Show Selected Values</button>
+
+    <br /><br />
+
+    <button onclick="shuffleValues()">Shuffle Values</button>
+    <button onclick="changeValues()">Change Values</button>
+
+    <ul id="selectedValuesList"></ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
