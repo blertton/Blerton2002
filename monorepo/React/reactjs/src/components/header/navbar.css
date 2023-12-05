@@ -1,0 +1,20 @@
+.nav {
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: rgb(78, 76, 76);
+  margin: 1;
+}
+
+.counter {
+  margin-bottom: 12px;
+  margin-top: 0;
+  color: gray;
+}

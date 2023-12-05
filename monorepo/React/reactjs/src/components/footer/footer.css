@@ -1,0 +1,15 @@
+.footer {
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.2)
+}
+.pabaupng {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
