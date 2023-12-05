@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    body {
+      font-size: larger;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    form {
+      max-width: 600px;
+      border: 1px solid;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 1px 10px 8px black;
+      width: 100%;
+    }
+    .title {
+      text-align: center;
+      width: 100%;
+    }
+    .buttons {
+      text-align: center;
+      width: 100%;
+    }
+    
+  </style>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
   </head>
   <body>
-    <h1>Checkboxes :</h1>
+    <h1 class="title">Checkboxes :</h1>
 
     <form style="display: flex">
-        <input type="checkbox" value="Internship" style="margin-right: 60px"/>
-        <input type="checkbox" value="Pabau" style="margin-right: 60px"/>
-        <input type="checkbox" value="Employment" style="margin-right: 60px"/>
-        <input type="checkbox" value="Career" style="margin-right: 60px"/>
-      </form>
+      <label id="firstlabel">Internship</label>
+      <input type="checkbox" value="Internship" style="margin-right: 60px" />
+      <label id="secondlabel">Pabau</label>
+      <input type="checkbox" value="Pabau" style="margin-right: 60px" />
+      <label id="thirdlabel">Employment</label>
+      <input type="checkbox" value="Employment" style="margin-right: 60px" />
+      <label id="fourthlabel">Career</label>
+      <input type="checkbox" value="Career" style="margin-right: 60px" />
     </form>
 
-    <br /><br />
+    <div class="buttons">
+      <button onclick="showSelectedValues()">Show Selected Values</button>
 
-    <button onclick="showSelectedValues()">Show Selected Values</button>
+      <br /><br />
 
-    <br /><br />
-
-    <button onclick="shuffleValues()">Shuffle Values</button>
-    <button onclick="changeValues()">Change Values</button>
+      <button onclick="shuffleValues()">Shuffle Values</button>
+      <button onclick="changeValues()">Change Values</button>
+    </div>
 
     <ul id="selectedValuesList"></ul>
 
